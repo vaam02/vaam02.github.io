@@ -1,0 +1,40 @@
+<svg
+          className="preloader-logo"
+          viewBox="0 0 1080 1080"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="preloader-logo-frame">
+            <g id="preloader-logo-min">
+              <path
+                className="m"
+                id="preloader-logo-min-m"
+                d="M937.95 569.4H711.45H569.4V1080H639.18H783.72H865.68H1010.22H1080V569.4H937.95Z"
+              />
+
+              <path
+                className="a2"
+                id="preloader-logo-min-a2"
+                d="M0 569.4V1080H510.6C510.6 798.01 282 569.4 0 569.4Z"
+                strokeWidth={'400px'}
+              />
+              <path
+                className="a1"
+                id="preloader-logo-min-a1"
+                d="M569.4 0V510.6H1080C1080 228.61 851.4 0 569.4 0Z"
+              />
+              <path
+                className="v"
+                id="preloader-logo-min-v"
+                d="M142.05 0H0V510.6C282 510.6 510.6 282 510.6 0H368.55H142.05Z"
+              />
+            </g>
+
+            <path
+              id="preloader-logo-umbrella"
+              d="M1080 510.6V569.4H569.4V1080H510.6C510.6 1009.51 496.31 942.34 470.47 881.25C392.97 698 211.49 569.41 0 569.41V510.61C70.5 510.61 137.66 496.32 198.75 470.48C382.01 392.97 510.6 211.49 510.6 0H569.39V510.6H1080Z"
+              fill="var(--vm-white)"
+            />
+          </g>
+        </svg>
+        

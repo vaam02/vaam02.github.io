@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/ico" href="/vaam logo minimal black.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone-no" />
+
+    <meta
+      name="description"
+      content="Creative design and web development services by freelance designer Adrian Martinez. Offering stunning, functional designs tailored to your unique vision."
+    />
+
+    <!-- OPEN GRAPH -->
+
+    <meta
+      property="og:title"
+      content="Vaam - Graphic Design and Web Development Services"
+    />
+    <meta
+      property="og:description"
+      content="Creative design and web development services by freelance designer Adrian Martinez. Offering stunning, functional designs tailored to your unique vision."
+    />
+    <meta property="og:image" content="public/vaam logo minimal black-02.png" />
+    <meta property="og:image:alt" content="Vaam minimal logo" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="es_VE" />
+
+    <title>Vaam - Freelance Designer and Developer</title>
+    <meta name="theme-color" content="#100a22" />
+
+    <!-- FONTS -->
+    <script type="module" crossorigin src="/assets/index-84c7ce63.js"></script>
+    <link rel="stylesheet" href="/assets/index-6ae90399.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <script>
+      const userLanguage = navigator.languages
+        ? navigator.languages[0]
+        : navigator.language || navigator.userLanguage;
+      const langAttribute = userLanguage.startsWith('en') ? 'en' : 'es';
+
+      document.documentElement.lang = langAttribute;
+      window.userLanguage = langAttribute;
+    </script>
+  </body>
+</html>
